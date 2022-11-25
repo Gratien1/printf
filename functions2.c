@@ -1,6 +1,6 @@
-nclude "main.h"
-/****************** PRINT POINTER ******************/
+#include "main.h"
 
+/****************** PRINT POINTER ******************/
 /**
  * print_pointer - Prints the value of a pointer variable
  * @types: List a of arguments
@@ -128,8 +128,8 @@ int print_reverse(va_list types, char buffer[],
 	{
 		char z = str[i];
 
-		write(1, &z, 1)
-			count++;
+		write(1, &z, 1);
+		count++;
 	}
 	return (count);
 }
